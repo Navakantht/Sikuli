@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26128" started-at="2017-08-17T15:57:10Z" finished-at="2017-08-17T15:57:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26128" started-at="2017-08-17T15:57:10Z" finished-at="2017-08-17T15:57:36Z">
+      <class name="com.pearsonebook.testscripts.EbookTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.pearsonebook.testscripts.EbookTest@5e0e82ae]" name="launchApp" is-config="true" duration-ms="18612" started-at="2017-08-17T21:27:10Z" finished-at="2017-08-17T21:27:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="FAIL" signature="testMeasurementofLength()[pri:2, instance:com.pearsonebook.testscripts.EbookTest@5e0e82ae]" name="testMeasurementofLength" duration-ms="7385" started-at="2017-08-17T21:27:28Z" description="Launch ebook, Click on resources, Select &#039;Measurement of length&#039; and check the functionality of buttons" finished-at="2017-08-17T21:27:36Z">
+          <exception class="org.sikuli.script.FindFailed">
+            <message>
+              <![CDATA[can not find D:\Pearson Poc scripts\pearsonebook\src\test\resources\ebookImages\mathematics.PNG on the screen.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[FindFailed: can not find D:\Pearson Poc scripts\pearsonebook\src\test\resources\ebookImages\mathematics.PNG on the screen.
+  Line 1574, in file Region.java
+
+	at org.sikuli.script.Region.handleFindFailed(Region.java:1574)
+	at org.sikuli.script.Region.wait(Region.java:1682)
+	at org.sikuli.script.Region.find(Region.java:1590)
+	at org.sikuli.script.Region.getLocationFromTarget(Region.java:1991)
+	at org.sikuli.script.Region.click(Region.java:2197)
+	at org.sikuli.script.Region.click(Region.java:2181)
+	at com.pearsonebook.testscripts.EbookTest.testMeasurementofLength(EbookTest.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.sikuli.script.FindFailed -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMeasurementofLength -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pearsonebook.testscripts.EbookTest@5e0e82ae]" name="tearDown" is-config="true" duration-ms="47" started-at="2017-08-17T21:27:36Z" finished-at="2017-08-17T21:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pearsonebook.testscripts.EbookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
